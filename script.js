@@ -6,7 +6,7 @@ function setMode(mode) {
     debtRate = (mode === 'PPF') ? 7.1 : 8.25;
     document.getElementById('ppfBtn').classList.toggle('active', mode === 'PPF');
     document.getElementById('vpfBtn').classList.toggle('active', mode === 'VPF');
-    document.getElementById('debtLabel').innerText = mode + " Maturity:";
+    document.getElementById('debtLabel').innerText = mode + " Maturity Value:";
     document.getElementById('results').style.display = 'none';
 }
 
